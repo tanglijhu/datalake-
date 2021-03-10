@@ -2,7 +2,7 @@
 The project objective is to help a music streaming startup, Sparkify, to move their date warehouse to a data lake. Specifically, an ETL pipeline was built to extract its data from AWS S3 and process them using Spark, and then load the data into a new S3 as a set of dimensional tables. This will allow their analytics team to continue finding insights in what songs their users are listening to.
 
 ## Dataset
-Datasets used in this project are provided in two public S3 buckets. Datasets used in this project were provided in two public S3 buckets, the objects in which are csv files. One bucket contains information about songs and artists, the other bucket contains information about users' listening activities. 
+Datasets used in this project are provided in two public S3 buckets. Datasets used in this project were provided in two public S3 buckets, the objects in which are json files. One bucket contains information about songs and artists, the other bucket contains information about users' listening activities. 
 
 ## Database Schema
 A star schema was optimized for queries on song play analysis as follows:
