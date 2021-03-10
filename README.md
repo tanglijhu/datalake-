@@ -18,7 +18,7 @@ A star schema was optimized for queries on song play analysis as follows:
 
 ### The database schema is shown as follows:
 
-![database schema diagram](/img/datalake-databse-scema.PNG)
+![database schema diagram](img/datalake-databse-scema.PNG)
 
 ## Spark Process
 The ETL job processes the song files then the log files. The song files are listed and iterated over entering relevant information in the artists and the song folders in parquet. The log files are filtered by the NextSong action. The subsequent dataset is then processed to extract the date, time, year etc. fields and records are then appropriately entered into the time, users and songplays folders in parquet for analysis.
